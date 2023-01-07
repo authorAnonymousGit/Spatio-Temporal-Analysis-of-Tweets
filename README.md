@@ -14,6 +14,7 @@ The class ConfigMain defines hyperparameters used for the metadata (file used fo
 Please notice that if toy already trained the model and you only want to test it please define the parameter PRIMARY_ALREADY_TRAINED as True.
 To approach tweet relevance task please define the PROBLEM parameter as 'relevance'.
 The parameter FEATURE_TEXT defines the name of attribute that contains the tweet contents.
+Note that we provided the file Cal_relevance_3690.csv, which you can use to test the code on.
 
 The class CondigPrimary defines the hyperparameters of the RCNN model.
 
@@ -23,3 +24,5 @@ To train and test the model, just run the file main.py as follows:
 ```
 python main.py
 ```
+
+
