@@ -20,6 +20,6 @@ The class CondigPrimary defines the hyperparameters of the RCNN model.
 
 ### Execution
 To train and test the model, just run the file main.py as follows:
-'''
+```
 python main.py
-'''
+```
