@@ -8,7 +8,7 @@ The attached code excerpt includes a tool for classifying tweets as relevant or 
 ## Running the Code
 We now provide the running instructions for the provided code.
 
-###Configuration
+### Configuration
 The hyperparameters for the code are defined in condig.py.
 The class ConfigMain defines hyperparameters used for the metadata (file used for training, train-dev ration, model used, etc.).
 Please notice that if toy already trained the model and you only want to test it please define the parameter PRIMARY_ALREADY_TRAINED as True.
@@ -18,7 +18,7 @@ The parameter FEATURE_TEXT defines the name of attribute that contains the tweet
 The class CondigPrimary defines the hyperparameters of the RCNN model.
 
 
-###Execution
+### Execution
 To train and test the model, just run the file main.py as follows:
 '''
 python main.py
